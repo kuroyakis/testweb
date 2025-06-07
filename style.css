@@ -1,6 +1,4 @@
-/* =========================
-   1. VARIABLES (por tema)
-========================= */
+/* Variables */
 :root {
   --bg-color: #0e0e0e;
   --text-color: #ffffff;
@@ -148,7 +146,7 @@ tr.bottom {
   margin: 10px 0;
   font-size: 1rem;
   }
-  
+
 /* El footer*/
 footer {
   width: 100%;
@@ -163,39 +161,32 @@ footer {
 }
 
 /* Adaptación de la web al resto de pantallas */
-@media (max-width: 1024px) {
-  .main-layout {
-    flex-direction: column;
-  }
+@@media (min-width: 1024px) {
+    .main-layout {
+        padding: 20px 80px; /* Even more horizontal padding */
+        max-width: 1400px; /* Constrain max width of content for large screens */
+        margin-left: auto; /* Center the layout */
+        margin-right: auto;
+    }
 
-  .left, .right {
-    width: 100%;
-  }
-
-  .team-bar img {
-    height: 55px;
-  }
-
-  .logo {
-    height: 70px;
-  }
+    header {
+        padding: 15px 80px; /* Match main layout padding */
+    }
 }
 
-@media (max-width: 600px) {
-  .logo {
-    height: 60px;
-  }
-
-  .team-bar img {
-    height: 50px;
-  }
-
-  th, td, .players li {
-    font-size: 0.9rem;
-  }
-
-  #theme-toggle {
-    width: 100%;
-    font-size: 0.95rem;
-  }
+/* For very small phones, adjust specific elements */
+@media (max-width: 400px) {
+    .logo {
+        height: 55px; /* Even smaller logo for very narrow screens */
+    }
+    .team-bar img {
+        height: 45px; /* Even smaller team logos */
+    }
+    th, td, .players li {
+        font-size: 0.8rem; /* Smaller text for extreme cases */
+    }
+    #theme-toggle {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
 }
