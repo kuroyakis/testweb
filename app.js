@@ -50,7 +50,7 @@ function mostrarPartidosSemana() {
     {
       date: '2025-06-10T22:30:00',
       team1: { name: 'O7', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/07.png' },
-      team2: { name: 'UOB', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/uob.png' },
+      team2: { name: 'UOB', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/ecorp.png' },
       tournament: 'MV • Regular',
       type: 'MEJOR DE 1'
     },
