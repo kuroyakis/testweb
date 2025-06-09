@@ -1,21 +1,21 @@
 // Datos
 const jugadores = [
-  { nombre: "Darknesson", puntos: 7, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Circos", puntos: 5, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Pinti", puntos: 7, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Petasuh", puntos: 12, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Galaik", puntos: 4, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Riskke", puntos: 2, img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" }
+  { nombre: "Darknesson", puntos: 7, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Circos", puntos: 5, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Pinti", puntos: 7, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Petasuh", puntos: 12, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Galaik", puntos: 4, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Riskke", puntos: 2, img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" }
 ];
 
 const leyendas = [
-  { nombre: "Darknesson", splits: "9", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Petasuh", splits: "9", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Drew", splits: "7", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Roro", splits: "6", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Jackies", splits: "5", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Circos", splits: "5", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "Galaik", splits: "3", img: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" }
+  { nombre: "Darknesson", splits: "9", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Petasuh", splits: "9", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Drew", splits: "7", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Roro", splits: "6", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Jackies", splits: "5", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Circos", splits: "5", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "Galaik", splits: "3", img: "../images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" }
 ];
 
 // Funciones para crear tablas
