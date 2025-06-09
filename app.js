@@ -1,14 +1,14 @@
 const equipos = [
-  { nombre: "LAST MINUTE TEAM", victorias: 6, derrotas: 3, tiempo: 160.2, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
-  { nombre: "PENTANILO", victorias: 6, derrotas: 3, tiempo: 182.9, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/pentanilo.png" },
-  { nombre: "SPACE KEVINS", victorias: 5, derrotas: 4, tiempo: 170.5, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/sk.png" },
-  { nombre: "SMOKE PHOENIX", victorias: 5, derrotas: 4, tiempo: 176.6, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/skx2.png" },
-  { nombre: "EL HOYO", victorias: 5, derrotas: 4, tiempo: 187.9, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/hyo.png" },
+  { nombre: "LAST MINUTE TEAM", victorias: 6, derrotas: 3, tiempo: 160.2, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/lmt.png" },
+  { nombre: "PENTANILO", victorias: 6, derrotas: 3, tiempo: 182.9, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/pentanilo.png" },
+  { nombre: "SPACE KEVINS", victorias: 5, derrotas: 4, tiempo: 170.5, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/sk.png" },
+  { nombre: "SMOKE PHOENIX", victorias: 5, derrotas: 4, tiempo: 176.6, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/skx2.png" },
+  { nombre: "EL HOYO", victorias: 5, derrotas: 4, tiempo: 187.9, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/hyo.png" },
   { nombre: "UNICORNS OF BOLIVIA", victorias: 5, derrotas: 3, tiempo: 164.7, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/uob.png" },
-  { nombre: "BANNING NOOBS", victorias: 3, derrotas: 5, tiempo: 96.2, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/bn.png" },
-  { nombre: "O7", victorias: 3, derrotas: 5, tiempo: 102.2, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/07.png" },
-  { nombre: "KOROROKO", victorias: 3, derrotas: 6, tiempo: 112.3, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/koko.png" },
-  { nombre: "EVIL CORP", victorias: 2, derrotas: 6, tiempo: 75.8, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/ecorp.png" }
+  { nombre: "BANNING NOOBS", victorias: 3, derrotas: 5, tiempo: 96.2, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/bn.png" },
+  { nombre: "O7", victorias: 3, derrotas: 5, tiempo: 102.2, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/07.png" },
+  { nombre: "KOROROKO", victorias: 3, derrotas: 6, tiempo: 112.3, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/koko.png" },
+  { nombre: "EVIL CORP", victorias: 2, derrotas: 6, tiempo: 75.8, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/ecorp.png" }
 ];
  
 function mostrarClasificacion() {
