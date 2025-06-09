@@ -4,7 +4,7 @@ const equipos = [
   { nombre: "SPACE KEVINS", victorias: 5, derrotas: 4, tiempo: 170.5, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/sk.png" },
   { nombre: "SMOKE PHOENIX", victorias: 5, derrotas: 4, tiempo: 176.6, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/skx2.png" },
   { nombre: "EL HOYO", victorias: 5, derrotas: 4, tiempo: 187.9, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/hyo.png" },
-  { nombre: "UNICORNS OF BOLIVIA", victorias: 5, derrotas: 3, tiempo: 164.7, logo: "/images/Logos_equipos_T10 (1)/Logos_equipos/uob.png" },
+  { nombre: "UNICORNS OF BOLIVIA", victorias: 5, derrotas: 3, tiempo: 164.7, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/uob.png" },
   { nombre: "BANNING NOOBS", victorias: 3, derrotas: 5, tiempo: 96.2, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/bn.png" },
   { nombre: "O7", victorias: 3, derrotas: 5, tiempo: 102.2, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/07.png" },
   { nombre: "KOROROKO", victorias: 3, derrotas: 6, tiempo: 112.3, logo: "images/Logos_equipos_T10 (1)/Logos_equipos/koko.png" },
@@ -42,15 +42,15 @@ function mostrarPartidosSemana() {
   const matches = [
     {
       date: '2025-06-09T20:00:00',
-      team1: { name: 'BN', logo: '/images/Logos_equipos_T10 (1)/Logos_equipos/bn.png' },
-      team2: { name: 'EC', logo: './images/Logos_equipos_T10 (1)/Logos_equipos/ecorp.png' },
+      team1: { name: 'BN', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/bn.png' },
+      team2: { name: 'EC', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/ecorp.png' },
       tournament: 'MV • Regular',
       type: 'MEJOR DE 1'
     },
     {
       date: '2025-06-10T22:30:00',
-      team1: { name: 'O7', logo: '/images/Logos_equipos_T10 (1)/Logos_equipos/07.png' },
-      team2: { name: 'UOB', logo: './images/Logos_equipos_T10 (1)/Logos_equipos/uob.png' },
+      team1: { name: 'O7', logo: 'images/Logos_equipos_T10 (1)/Logos_equipos/07.png' },
+      team2: { name: 'UOB', logo: '.images/Logos_equipos_T10 (1)/Logos_equipos/uob.png' },
       tournament: 'MV • Regular',
       type: 'MEJOR DE 1'
     },
@@ -99,4 +99,3 @@ function mostrarPartidosSemana() {
 
 mostrarClasificacion();
 mostrarPartidosSemana();
-
